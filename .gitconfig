@@ -11,7 +11,6 @@
 	lg1 = log --graph --decorate --all
 	lg2 = log --graph --decorate --all --oneline
 [credential]
-	helper = 
-	helper = /usr/local/bin/git-credential-manager-core
+	helper = libsecret
 [credential "https://dev.azure.com"]
 	useHttpPath = true
