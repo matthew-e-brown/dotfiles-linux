@@ -1,0 +1,17 @@
+[user]
+	email = matthew.e.brown.17@gmail.com
+	name = Matthew Brown
+[core]
+	editor = vim
+[alias]
+	st = status
+	ch = checkout
+	ck = checkout
+	aa = add .
+	lg1 = log --graph --decorate --all
+	lg2 = log --graph --decorate --all --oneline
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true
