@@ -10,7 +10,3 @@
 	aa = add .
 	lg1 = log --graph --decorate --all
 	lg2 = log --graph --decorate --all --oneline
-[credential]
-	helper = libsecret
-[credential "https://dev.azure.com"]
-	useHttpPath = true
